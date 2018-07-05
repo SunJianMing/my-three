@@ -1,0 +1,34 @@
+{
+  "name": "my-three",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node_modules/.bin/webpack-dev-server --progress",
+    "build": "webpack --config webpack.config.js --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^0.28.11",
+    "fs": "0.0.1-security",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.2"
+  },
+  "dependencies": {
+    "dat-gui": "^0.5.0",
+    "stats": "^1.0.0",
+    "three": "^0.93.0",
+    "three-obj-loader": "^1.1.3",
+    "three-objmtll-loader": "^1.0.1",
+    "three-orbitcontrols": "^2.1.2"
+  }
+}
