@@ -2,7 +2,7 @@ import OBJLoader  from 'three-obj-loader'
 OBJLoader(THREE)
 import Orbitcontrols from 'three-orbitcontrols'
 
-
+console.log(11)
 let loader = new THREE.OBJLoader()
 
 
