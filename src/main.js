@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import entry1 from 'entryLevel/3.js'
 // import entry1 from 'entryLevel/7.js'
 //2d
@@ -23,3 +24,9 @@
 import 'geometry/rainy.js'  
 
 import 'common/css/common.css'
+=======
+import 'common/css/style.css'
+
+// import entry1 from 'entry1.js'
+import entry1 from 'demo.js'
+>>>>>>> cd4fabe890dbf1d1beefbffa5675b2c9e8503a90
