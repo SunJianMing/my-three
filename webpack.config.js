@@ -23,7 +23,6 @@ module.exports = {
     from:path.resolve(__dirname,'./assets'),
     to:path.resolve(__dirname,'./dist/assets')
   }],{
-    ignore:['*']
   })],
   module:{
     rules:[{
